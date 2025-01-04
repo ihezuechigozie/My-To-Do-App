@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading System</title> 
+    <link rel="stylesheet" href="grade.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,display=swap');
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif,wght@100;0&display=swap');
+</style>
+<body class="body">
+    <div class="tiles-box">
+    <span class="a"></span>
+    <span class="b"></span>
+    <span class="c"></span>
+    <span class="d"></span>
+    <span class="e"></span>
+    <span class="f"></span>
+    <span class="g"></span>
+    <span class="g"></span>
+    </div>
+    <div class="tiles-box">
+    <span class="a"></span>
+    <span class="b"></span>
+    <span class="c"></span>
+    <span class="d"></span>
+    <span class="e"></span>
+    <span class="f"></span>
+    <span class="g"></span>
+    <span class="g"></span>
+    </div>
+    <div class="tiles-box">
+    <span class="a"></span>
+    <span class="b"></span>
+    <span class="c"></span>
+    <span class="d"></span>
+    <span class="e"></span>
+    <span class="f"></span>
+    <span class="g"></span>
+    <span class="g"></span>
+    </div>
+    
+    <div class="tiles-box">
+    <span class="a"></span>
+    <span class="b"></span>
+    <span class="c"></span>
+    <span class="d"></span>
+    <span class="e"></span>
+    <span class="f"></span>
+    <span class="g"></span>
+    <span class="g"></span>
+    </div>
+
+    <main class="parent-container">
+        <br>
+     <div class="welcome"><marquee behavior="" direction="right">welcome to the official grading page</marquee></div>
+     <br>
+     <u style="text-align: center;" class="grading">GRADING SYSTEM</u>
+        <div class="mini-container">
+            <input class="enter-score" id="userScore" type="text/number" placeholder=" Input score">
+            <div class="check" onclick="myScore()">Check</div>
+        </div> 
+        <br>  
+        <input type="text" class="see-result" onclick="clear()" disabled placeholder="See Result Here" id="showgrade">
+    </main>
+    <script src="grade.js"></script>
+    
+</body>
+</html>
